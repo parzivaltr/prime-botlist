@@ -13,37 +13,37 @@
             <p class="UserName is-size-2 has-text-white"> <%= member.username %><small class="is-size-5">#<%=member.discriminator%></small> <i class="status-circle fad fa-circle status-<%=member.presence.status%>"></i></p>
             <% if(bot.guilds.cache.get(config.serverID).members.cache.get(member.id)) {%>
             <% if (bot.guilds.cache.get(config.serverID).members.cache.get(member.id).roles.cache.get(roles.yonetici)) { %>
-                <span data-tooltip="<%=bot.guilds.cache.get(config.serverID).roles.cache.get(roles.yonetici).name%>" data-tooltip-location="top"> 
-                <i class="fad fa-crown has-text-danger" style="color: <%=bot.guilds.cache.get(config.serverID).roles.cache.get(roles.yonetici).hexColor%>;bottom: -5px; font-size: 26px;"></i>
+                <span data-tooltip="Owner" data-tooltip-location="top"> 
+                <i class="fad fa-crown has-text-danger" style="bottom: -5px; font-size: 26px;"></i>
                 </span>
             <% } %>
             <% if (bot.guilds.cache.get(config.serverID).members.cache.get(member.id).roles.cache.get(roles.moderator)) { %>
-                <span data-tooltip="<%=bot.guilds.cache.get(config.serverID).roles.cache.get(roles.moderator).name%>" data-tooltip-location="top"> 
-               <img src="https://cdn.discordapp.com/attachments/770940781916586004/830438607373205554/staff.png" style="color: <%=bot.guilds.cache.get(config.serverID).roles.cache.get(roles.moderator).hexColor%>;bottom: -5px; font-size: 26px;width:25px">
+                <span data-tooltip="Moderator" data-tooltip-location="top"> 
+               <img src="https://cdn.discordapp.com/attachments/770940781916586004/830438607373205554/staff.png" style="bottom: -5px; font-size: 26px;width:25px">
                 </span>
             <% } %>
             <% if (bot.guilds.cache.get(config.serverID).members.cache.get(member.id).roles.cache.get(roles.codesharer)) { %>
-                <span data-tooltip="<%=bot.guilds.cache.get(config.serverID).roles.cache.get(roles.codesharer).name%>" data-tooltip-location="top"> 
+                <span data-tooltip="Code Sharer" data-tooltip-location="top"> 
                 <i class="fad fa-file-code" style="color: <%=bot.guilds.cache.get(config.serverID).roles.cache.get(roles.codesharer).hexColor%>;bottom: -5px; font-size: 26px;"></i>
                 </span>
             <% } %>
             <% if (bot.guilds.cache.get(config.serverID).members.cache.get(member.id).roles.cache.get(roles.sponsor)) { %>
-                <span data-tooltip="<%=bot.guilds.cache.get(config.serverID).roles.cache.get(roles.sponsor).name%>" data-tooltip-location="top"> 
+                <span data-tooltip="Sponsor" data-tooltip-location="top"> 
                 <i class="fad fa-badge-dollar" style="color: <%=bot.guilds.cache.get(config.serverID).roles.cache.get(roles.sponsor).hexColor%>;bottom: -5px; font-size: 26px;"></i>
                 </span>
             <% } %>
             <% if (bot.guilds.cache.get(config.serverID).members.cache.get(member.id).roles.cache.get(roles.premium_developer)) { %>
-                <span data-tooltip="<%=bot.guilds.cache.get(config.serverID).roles.cache.get(roles.premium_developer).name%>" data-tooltip-location="top"> 
-                <i class="fad fa-diamond" style="color: <%=bot.guilds.cache.get(config.serverID).roles.cache.get(roles.premium_developer).hexColor%>;bottom: -5px; font-size: 26px;"></i>
+                <span data-tooltip="Premium Bot Developer" data-tooltip-location="top"> 
+                <img src="https://cdn.discordapp.com/emojis/829671377761992714.png?v=1" style="width:35px">
                 </span>
             <% } %>
             <% if (bot.guilds.cache.get(config.serverID).members.cache.get(member.id).roles.cache.get(roles.certified_developer)) { %>
-                <span data-tooltip="<%=bot.guilds.cache.get(config.serverID).roles.cache.get(roles.certified_developer).name%>" data-tooltip-location="top"> 
+                <span data-tooltip="Certified Developer" data-tooltip-location="top"> 
                 <i class="fad fa-badge-check" style="color: <%=bot.guilds.cache.get(config.serverID).roles.cache.get(roles.certified_developer).hexColor%>;bottom: -5px; font-size: 26px;"></i>
                 </span>
             <% } %>
             <% if (bot.guilds.cache.get(config.serverID).members.cache.get(member.id).roles.cache.get(roles.supporter)) { %>
-                <span data-tooltip="<%=bot.guilds.cache.get(config.serverID).roles.cache.get(roles.supporter).name%>" data-tooltip-location="top"> 
+                <span data-tooltip="Supporter" data-tooltip-location="top"> 
                 <i class="fad fa-diamond" style="color: <%=bot.guilds.cache.get(config.serverID).roles.cache.get(roles.supporter).hexColor%>;bottom: -5px; font-size: 26px;"></i>
                 </span>
                 <% } %>
