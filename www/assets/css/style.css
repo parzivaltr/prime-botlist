@@ -2,16 +2,16 @@
 /* Custom Selection */
 ::-moz-selection { /* Code for Firefox */
   color: #7289da;
-  background: #2c2f33;
+  background: #ff1100;
   border-radius: 10px;
   transition: all 0.3s;
-}
+}  
 
 ::selection {
   color: #7289da;
     border-radius: 10px;
 
-  background: #2c2f33;
+  background: #ff1100;
   transition: all 0.3s;
 }
 /* PULSE AVATAR */
