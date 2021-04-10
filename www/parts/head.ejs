@@ -35,10 +35,10 @@
                 <li class="nav-item active"><a title="vCodes" class="nav-link" href="/bots">Bots</a></li>
                 <li class="nav-item active"><a title="vCodes" class="nav-link" href="/certification">Certification</a></li>
                 <li class="nav-item active"><a title="vCodes" class="nav-link" href="/team">Team</a></li>
+              <li class="nav-item active"><a title="vCodes" class="nav-link" href="/partners">Partners</a></li>
 
                 <% if(user) {%>
-                <li class="nav-item active"><a title="vCodes" class="nav-link" href="/addbot">Add Bot</a></li>
-                <li class="nav-item active"><a title="vCodes" class="nav-link" href="/codes">Code Share</a></li>
+                
 
                 <% if (bot.guilds.cache.get(config.serverID).members.cache.get(user.id)) {%>
                     <% if (bot.guilds.cache.get(config.serverID).members.cache.get(user.id).roles.cache.get(roles.yonetici) || bot.guilds.cache.get(config.serverID).members.cache.get(user.id).roles.cache.get(roles.moderator)) { %>
@@ -50,8 +50,10 @@
                           <%= user.username %>
                         </a>
                         <div title="vCodes" class="dropdown-menu animate slideIn" aria-labelledby="navbarDropdown">
-                          <a title="vCodes" class="dropdown-item" href="/user/<%=user.id%>">Profile</a>
-                          <a title="vCodes" class="dropdown-item" href="/uptime/links">Uptime Links</a>
+                          <a title="Profile" class="dropdown-item" href="/user/<%=user.id%>">Profile</a>
+                          <a title="Uptime Links" class="dropdown-item" href="/uptime/links">Uptime Links</a>
+                          <a title="vCodes" class="dropdown-item" href="/addbot">Add Bot</a>
+                          <a title="vCodes" class="dropdown-item" href="/addbot">Uptime Links</a>
                           <div class="dropdown-divider"></div>
                           <a title="vCodes" class="dropdown-item" href="/logout">Logout</a>
                         </div>

@@ -19,7 +19,7 @@
             <% } %>
             <% if (bot.guilds.cache.get(config.serverID).members.cache.get(member.id).roles.cache.get(roles.moderator)) { %>
                 <span data-tooltip="<%=bot.guilds.cache.get(config.serverID).roles.cache.get(roles.moderator).name%>" data-tooltip-location="top"> 
-                <i class="fad fa-gavel" style="color: <%=bot.guilds.cache.get(config.serverID).roles.cache.get(roles.moderator).hexColor%>;bottom: -5px; font-size: 26px;"></i>
+               <img src="https://cdn.discordapp.com/attachments/770940781916586004/830438607373205554/staff.png" style="color: <%=bot.guilds.cache.get(config.serverID).roles.cache.get(roles.moderator).hexColor%>;bottom: -5px; font-size: 26px;width:25px">
                 </span>
             <% } %>
             <% if (bot.guilds.cache.get(config.serverID).members.cache.get(member.id).roles.cache.get(roles.codesharer)) { %>
@@ -159,7 +159,7 @@
                          <% } %>
                          <% if(a.premium == "Premium") {%>
                             <a data-tooltip="Premium Bot"
-                            data-tooltip-location="top"><i class="fad fa-diamond has-text-primary"></i></a>
+                            data-tooltip-location="top"><img src="https://cdn.discordapp.com/emojis/829671377761992714.png?v=1" style="width:25px"></a>
                          <% } %>
                          </p>   
                          <p style="margin-top: -10px;" class="cardvcodesbotDesc"><%= a.shortDesc %></p>
