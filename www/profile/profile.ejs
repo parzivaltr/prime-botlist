@@ -14,16 +14,16 @@
             <% if(bot.guilds.cache.get(config.serverID).members.cache.get(member.id)) {%>
             <% if (bot.guilds.cache.get(config.serverID).members.cache.get(member.id).roles.cache.get(roles.yonetici)) { %>
                 <span data-tooltip="Owner" data-tooltip-location="top"> 
-                <i class="fad fa-crown has-text-danger" style="bottom: -5px; font-size: 30px;"></i>
+                <i class="fad fa-crown has-text-danger" style="bottom: -5px; font-size: 26px;"></i>
                 </span>
             <% } %>
             <% if (bot.guilds.cache.get(config.serverID).members.cache.get(member.id).roles.cache.get(roles.moderator)) { %>
                 <span data-tooltip="Moderator" data-tooltip-location="top"> 
-               <img src="https://cdn.discordapp.com/attachments/770940781916586004/830438607373205554/staff.png" style="bottom: -5px; font-size: 26px;width:25px">
+               <img src="https://cdn.discordapp.com/attachments/770940781916586004/830438607373205554/staff.png" style="bottom: -5px; font-size: 30px;width:30px">
                 </span>
             <% } %>
                       <% if (bot.guilds.cache.get(config.serverID).members.cache.get(member.id).roles.cache.get(roles.bughunter)) { %>
-                <span data-tooltip="Bug Hunter" data-tooltip-location="top"> 
+                <span data-tooltip="RabeL Code Bug Hunter" data-tooltip-location="top"> 
                 <img src="https://cdn.discordapp.com/emojis/829671571361628160.png?v=1" style="bottom: -5px; font-size: 26px;width:30px">
                 </span>
             <% } %>
