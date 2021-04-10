@@ -1,12 +1,12 @@
 # vCodes.xyz
-<a href="https://vcodes.xyz/dc" target="_blank"><img src="https://img.devsforum.net/tr/img/h1Z2X3.png" alt="Join our discord" width="256"></a><br>
 **Support:** [https://vcodes.xyz/dc](https://voiddevs.org/dc) <br>
 **NPM:** [npmjs.com/package/vcodes.js](https://www.npmjs.com/package/vcodes.js)<br>
 
-> # Developers
-<a href="https://github.com/iClaudette">👤 Claudette</a><br>
-<a href="https://github.com/tunarjs">👤 Tunar</a>
+<b>Developers</b> -->
+[👤 Claudette](https://github.com/iClaudette) | [👤 Tunar](https://github.com/tunarjs)
 
+```
+```
 
 ## English
 # Setup
