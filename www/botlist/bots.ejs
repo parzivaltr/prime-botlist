@@ -109,7 +109,7 @@
                  <% } %>
                  <% if(a.premium == "Premium") {%>
                     <a data-tooltip="Premium Bot"
-                    data-tooltip-location="top"><i class="fad fa-diamond has-text-primary"></i></a>
+                    data-tooltip-location="top"><img src="https://cdn.discordapp.com/emojis/829671377761992714.png?v=1" style="width:25px"></a>
                  <% } %>
                 </p>   
                    <p style="margin-top: -10px;" class="cardvcodesbotDesc"><%= a.shortDesc %></p>
@@ -144,7 +144,7 @@
                  <% } %>
                  <% if(a.premium == "Premium") {%>
                     <a data-tooltip="Premium Bot"
-                    data-tooltip-location="top"><i class="fad fa-diamond has-text-primary"></i></a>
+                    data-tooltip-location="top"><img src="https://cdn.discordapp.com/emojis/829671377761992714.png?v=1" style="width:25px"></a>
                  <% } %>
                 </p>   
                   <p style="margin-top: -10px;" class="cardvcodesbotDesc"><%= a.shortDesc %></p>
@@ -209,7 +209,7 @@ if (page != 1) {
      title: 'Succesfull...',
      closeOnConfirm: false,
      text: urlParams.get('message'),
-     footer: 'Copyright 2021 &copy vCodes.xyz - All right reserved.'
+     footer: 'Copyright 2021 &copy rabelcode.xyz - All right reserved.'
     }).then((result) => {
   if (result.isConfirmed) {
     window.location.href = `/bot/${urlParams.get('botID')}`;
@@ -221,7 +221,7 @@ if (page != 1) {
      icon: 'error',
      title: 'Oops...',
      text: urlParams.get('message'),
-     footer: 'Copyright 2021 &copy vCodes.xyz - All right reserved.'
+     footer: 'Copyright 2021 &copy rabelcode.xyz - All right reserved.'
     }).then((result) => {
   if (result.isConfirmed) {
     window.location.href = '/addbot';
