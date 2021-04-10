@@ -88,7 +88,7 @@ client.on("message", message => {
                                 .setFooter(config.footer)
                                 .setColor("BLUE")
                                 .setAuthor(message.author.username, message.author.avatarURL({dynamic: true}))
-                                .setDescription("Websitemiz için **[buraya](https://vcodes.xyz)** tıkla!"));
+                                .setDescription("Websitemiz için **[buraya](https://www.rabelcode.xyz)** tıkla!"));
 	}
   });
 
@@ -98,7 +98,7 @@ client.on('ready',async () => {
 console.log("`" + client.user.username + "` Başarıyla Aktif Hale getirildi!");
 let joinc = "824326250616979486";
 client.channels.cache.get(joinc).join();
-client.user.setPresence({ activity: { type: 'WATCHING', name: 'vcodes.xyz' }, status: "dnd" });
+client.user.setPresence({ activity: { type: 'WATCHING', name: 'www.rabelcode.xyz' }, status: "dnd" });
 })
 
 
@@ -117,7 +117,7 @@ map = `No results.`
 }else{
 filter.map(a => {
    
-map += `${a.codeName} **->** [Click Here](https://vcodes.xyz/code/${a.code})\n`
+map += `${a.codeName} **->** [Click Here](https://www.rabelcode.xyz/code/${a.code})\n`
 })
 }
 const aramasonucu = new Discord.MessageEmbed()

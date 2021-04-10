@@ -66,19 +66,19 @@ if(args[1] == "kapat") {
     const d = await databakim.findOne({server: message.guild.id});
     if(!d) return message.reply("site zaten bakıma alınmamış.")
     const tebriklerkanks = new Discord.MessageEmbed()
-    .setAuthor("vcodes.xyz", client.user.avatarURL())
+    .setAuthor("www.rabelcode.xyz", client.user.avatarURL())
     .setThumbnail(client.user.avatarURL())
-    .setDescription(`Tebrikler, **${d.reason}** sebebiyle kapanmış olan vCodes'u tekrar açtınız.`)
+    .setDescription(`Tebrikler, **${d.reason}** sebebiyle kapanmış olan RabeL Code'u tekrar açtınız.`)
     .setColor("GREEN")
     .setTitle("BAŞARILI")
     message.channel.send(tebriklerkanks);
     client.channels.cache.get(ch.webstatus).messages.fetch(d.bakimmsg).then(a => { a.edit(`~~ vCodes **${d.reason}** sebebi ile __bakım__ moduna alındı. ~~`, bakimbitti) } )
     const bakimbitti = new Discord.MessageEmbed()
-    .setAuthor("vcodes.xyz", client.user.avatarURL())
+    .setAuthor("www.rabelcode.xyz", client.user.avatarURL())
     .setThumbnail(client.user.avatarURL())
     .setColor("GREEN")
-    .setDescription(`vCodes are **active** again!\n[Click to redirect website](https://vcodes.xyz)`)
-    .setFooter("vCodes © Tüm hakları saklıdır.");
+    .setDescription(`RabeL Code are **active** again!\n[Click to redirect website](https://www.rabelcode.xyz)`)
+    .setFooter("RabeL Code © Tüm hakları saklıdır.");
     client.channels.cache.get(ch.webstatus).send(".").then(b => { b.delete({ timeout: 500 })})
     databakim.deleteOne({server: message.guild.id}, function (error, server) { 
     if(error) console.log(error)

@@ -13,7 +13,7 @@ const generateEmbed = start => {
     .setColor("BLUE")
     .setFooter(c.footer)
   current.forEach(g => 
-    embed.addField(`${g.codeName}`, `[Click Here](https://vcodes.xyz/code/${g.code})`)
+    embed.addField(`${g.codeName}`, `[Click Here](https://www.rabelcode.xyz/code/${g.code})`)
   ) 
   return embed
 }

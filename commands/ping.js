@@ -7,8 +7,8 @@ exports.run = async (client, message, args) => {
     data.findOne({},async (err,docs) => {
 let dataping = Date.now() - oldDate
     message.channel.send(":ping_pong: Pong...", new Discord.MessageEmbed()
-    .setTitle("vCodes - Ping")
-    .setColor("BLUE").setFooter("vCodes © All rights reserved.")
+    .setTitle("RabeL Code - Ping")
+    .setColor("BLUE").setFooter("RabeL Code © All rights reserved.")
     .setAuthor(message.author.tag, message.author.avatarURL({dynamic: true}))
     .setDescription(`**Bot Ping**: ${client.ws.ping}ms\n**Database**: ${dataping}ms`)
     )
