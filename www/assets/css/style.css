@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 /* Custom Selection */
 ::-moz-selection { /* Code for Firefox */
-  color: #7289da;
+  color: ##615e5e;;
   background: #ff1100;
   border-radius: 10px;
   transition: all 0.3s;
 }  
 
 ::selection {
-  color: #7289da;
+  color: ##615e5e;;
     border-radius: 10px;
 
   background: #ff1100;
@@ -343,17 +343,19 @@ body {
 ::-webkit-scrollbar {
   width: 8px;
   height: 15px;
+  background: #262525; 
 }
 ::-webkit-scrollbar-track {
   box-shadow: inset 0 0 5px grey; 
   border-radius: 10px;
 }
 ::-webkit-scrollbar-thumb {
-  background: #7289da; 
+  background: #7d7d7d; 
+  color:#615e5e;
   border-radius: 10px;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: #7289da; 
+  background: #7d7d7d; 
 }
 
 /* CUSTOM FORM */
