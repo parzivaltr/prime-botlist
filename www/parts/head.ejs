@@ -41,17 +41,17 @@
                 
                 <% if (bot.guilds.cache.get(config.serverID).members.cache.get(user.id)) {%>
                     <% if (bot.guilds.cache.get(config.serverID).members.cache.get(user.id).roles.cache.get(roles.yonetici) || bot.guilds.cache.get(config.serverID).members.cache.get(user.id).roles.cache.get(roles.moderator)) { %>
-                        <li class="nav-item active"><a class="nav-link" title="Log Out" href="/admin"><i class="fad fa-crown"></i>&nbsp;Admin Panel</a></li>
+                        <li class="nav-item active"><a class="nav-link" title="Admin" href="/admin"><i class="fad fa-crown"></i>&nbsp;Admin Panel</a></li>
                     <% } %>
                     <% } %>
-                    <li class="nav-item dropdown ">
+                    <li class="nav-item dropdown " >
                         <a class="nav-link dropdown-toggle has-text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                          <%= user.username %>
+                        <img draggable="false" src="https://api.slushie.gg/avatar/<%= user.id %>" style="width: 30px; border-radius: 50%;">  <%= user.username %>
                         </a>
-                        <div title="vCodes" class="dropdown-menu animate slideIn" aria-labelledby="navbarDropdown">
+                        <div title="RabeL Code" class="dropdown-menu animate slideIn" aria-labelledby="navbarDropdown" style="width:100px">
+                          <a title="Add Bot" class="dropdown-item" href="/addbot"><i class="fad fa-plus"></i>&nbsp;Add Bot</a>
                           <a title="Profile" class="dropdown-item" href="/user/<%=user.id%>"><i class="fad fa-user"></i>&nbsp;Profile</a>
                           <a title="Uptime Links" class="dropdown-item" href="/uptime/links"><i class="fad fa-cloud-upload-alt"></i>&nbsp;Uptime Links</a>
-                          <a title="Add Bot" class="dropdown-item" href="/addbot"><i class="fad fa-plus"></i>&nbsp;Add Bot</a>
                           <a title="Code" class="dropdown-item" href="/codes"><i class="fad fa-code"></i>&nbsp;Code</a>
                           <div class="dropdown-divider"></div>
                           <a title="Log Out" class="dropdown-item" href="/logout"><i class="fad fa-sign-out-alt"></i>&nbsp;Logout</a>
