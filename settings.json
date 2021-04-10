@@ -5,7 +5,7 @@
   "clientid" : "745273648805445673",
   "clientsecret" : "agH1QeOg6nKYUdYF_Hp2Z1icgiNoxuyX",
   "clientcallback" : "https://relieved-marshy-alto.glitch.me/callback",
-  "mongoURL" : "",
+  "mongoURL" : "mongodb+srv://gweep:gweepcreative@botlist.31nys.mongodb.net/gweepvideo123?retryWrites=true&w=majority",
   "serverID": "828232206442692608",
   "footer": "GLOBAL FOOTER",
   "tags": ["Moderation", "Fun", "Minecraft","Economy","Guard","NSFW","Anime","Invite","Music","Logging", "Web Dashboard", "Reddit", "Youtube", "Twitch", "Crypto", "Leveling", "Game", "Roleplay", "Utility", "Turkish"]
