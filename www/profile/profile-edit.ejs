@@ -43,13 +43,14 @@
 
 <label for="basic-url"><i class="fad fa-text"></i> Biography (Optional)</label>
 <div class="input-group mb-3">
-  <textarea id="biography" name="biography" style="width: 100%" maxlength="250"><%= pdata.biography %></textarea>
+  <textarea id="biography" name="biography" style="width: 100%" maxlength="250"></textarea>
 </div>
   <br>
   <button type="submit" class="btn btn-primary"><i class="fad fa-save"></i> Save</button>
 </form>
 </div>
 <br><br>
+<%- include('../parts/foot') %>
 <script>
     var urlParams = new URLSearchParams(window.location.search);
     if(urlParams.has('success') && urlParams.get('success')){
@@ -78,4 +79,3 @@
 })
     }
    </script>
-<%- include('../parts/foot') %>
