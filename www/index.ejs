@@ -127,7 +127,7 @@
                         
                              <% 
             if(bot.guilds.cache.get(config.serverID).members.cache.get(a.botID)) {
-            if(bot.guilds.cache.get(config.serverID).members.cache.get(a.botID).roles.cache.get("830378039845847100"));  
+            if(bot.guilds.cache.get(config.serverID).members.cache.get(a.botID).roles.cache.get("830378039845847100")) {
              %>   <span data-tooltip="Official Bot" data-tooltip-location="top"> 
                <img src="https://cdn.discordapp.com/attachments/770940781916586004/830438607373205554/staff.png" style="bottom: -5px; font-size: 30px;width:20px">
                 </span>
@@ -223,10 +223,14 @@
                     <a data-tooltip="Premium Bot"
                     data-tooltip-location="top"><img src="https://cdn.discordapp.com/emojis/829671377761992714.png?v=1" style="width:25px"></a>
                  <% } %>
-                    <<% if(a.ozel == "ozel") {%>
-                        <a data-tooltip="Official Bot"
-                        data-tooltip-location="top"><img src="https://cdn.discordapp.com/attachments/770940781916586004/830438607373205554/staff.png" style="width:25px"></a>
-                     <% } %>                 </p>   
+                   
+                        <% 
+            if(bot.guilds.cache.get(config.serverID).members.cache.get(a.botID)) {
+            if(bot.guilds.cache.get(config.serverID).members.cache.get(a.botID).roles.cache.get("830378039845847100")) {
+             %>   <span data-tooltip="Official Bot" data-tooltip-location="top"> 
+               <img src="https://cdn.discordapp.com/attachments/770940781916586004/830438607373205554/staff.png" style="bottom: -5px; font-size: 30px;width:20px">
+                </span>
+            <% }} %>                 </p>   
                   <p style="margin-top: -10px;" class="cardvcodesbotDesc"><%= a.shortDesc %></p>
                   <center>
 

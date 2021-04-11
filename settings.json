@@ -1,9 +1,9 @@
 {
-  "token": "NzQ1MjczNjQ4ODA1NDQ1Njcz.XzvYLA.xoN7PhT3BzRK0JcxYh_spw5CA_U",
+  "token": "NzMyNDYzNzUyNTMxODA0MTYy.Xw0-Bw.ZWarP3J7HfLXUdeMMlGt7Y_-1ew",
   "prefix" : "!",
   "owner" : ["586822327568695317","",""],
-  "clientid" : "745273648805445673",
-  "clientsecret" : "agH1QeOg6nKYUdYF_Hp2Z1icgiNoxuyX",
+  "clientid" : "732463752531804162",
+  "clientsecret" : "YSTNPh3qzK0pO-qH8n_TTB0zfDxkA-7f",
   "clientcallback" : "https://dsafrdlkksjjjsuskapd.glitch.me/callback",
   "mongoURL" : "mongodb+srv://gweep:gweepcreative@botlist.31nys.mongodb.net/gweepvideo123?retryWrites=true&w=majority",
   "serverID": "828232206442692608",
