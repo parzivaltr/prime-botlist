@@ -2717,10 +2717,10 @@ color: #fff!important;
 }
 
 .foootmouse{
-  opacity:1; 
-  text-decaration:none;
+  color: #7a7a7a;
+
 }
-.foootmouse::hover{
-  opacity:0,5; 
-  text-decaration:none;
+.foootmouse:hover{
+  color: #fff;
+
 }
