@@ -2715,3 +2715,12 @@ pre.bot{
 pre td {
 color: #fff!important;
 }
+
+.foootmouse{
+  opacity:1; 
+  text-decaration:none;
+}
+.foootmouse::hover{
+  opacity:0,5; 
+  text-decaration:none;
+}
