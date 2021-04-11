@@ -18,6 +18,7 @@ support: String,
 Date: {type: Date, default: null},
 certificate: String,
 premium: String,
+ozel: String,
 votes: {type: Number, default: 0}
 });
 

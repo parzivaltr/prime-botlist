@@ -210,6 +210,7 @@ client.on('ready', async () => {
   setInterval(async () => {
   let serverID = config.serverID;
   let premiumID = roles.premium_developer;
+  let ozelid = roles.ozel_developer;
   let developer = roles.developer;
   let sertifikaid = roles.certified_developer;
   let x = await botlar.find()
@@ -242,6 +243,21 @@ client.on('ready', async () => {
   }
   })
   })
+      // OZEL DEVELOPERS
+  let ozel = x.filter(a => a.ozel === 'ozel')
+  ozel.forEach(a => {
+  if(client.guilds.cache.get(serverID).members.cache.get(a.ownerID)) {
+  if(!client.guilds.cache.get(serverID).members.cache.get(a.ownerID).roles.cache.has(ozelid)) client.guilds.cache.get(serverID).members.cache.get(a.ownerID).roles.add(ozelid)
+  }
+  a.coowners.forEach(b => {
+  if(client.guilds.cache.get(serverID).members.cache.get(b)) {
+  if(!client.guilds.cache.get(serverID).members.cache.get(b).roles.cache.has(ozelid)) {
+      client.guilds.cache.get(serverID).members.cache.get(b).roles.add(ozelid)
+  }
+
+  }
+  })
+  })
   // PREMIUM DEVELOPERS
   let premium = x.filter(a => a.premium === 'Premium')
   premium.forEach(a => {
@@ -258,6 +274,7 @@ client.on('ready', async () => {
   })
   }, 10000)
   })
+
   //----------- ROLE ---------------\\
 
 client.login(settings.token);
