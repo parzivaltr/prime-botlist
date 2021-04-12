@@ -1,12 +1,12 @@
 {
-  "token": "NzMyNDYzNzUyNTMxODA0MTYy.Xw0-Bw.ZWarP3J7HfLXUdeMMlGt7Y_-1ew",
+  "token": "NzMyNDYzNzUyNTMxODA0MTYy.Xw0-Bw.FGLNAAqQC-TogLjy7fyStAnxkFw",
   "prefix" : "!",
   "owner" : ["586822327568695317","",""],
   "clientid" : "732463752531804162",
   "clientsecret" : "YSTNPh3qzK0pO-qH8n_TTB0zfDxkA-7f",
   "clientcallback" : "https://dsafrdlkksjjjsuskapd.glitch.me/callback",
   "mongoURL" : "mongodb+srv://gweep:gweepcreative@botlist.31nys.mongodb.net/gweepvideo123?retryWrites=true&w=majority",
-  "serverID": "720554756556324914",
+  "serverID": "828232206442692608",
   "footer": "GLOBAL FOOTER",
   "tags": ["Moderation", "Fun", "Minecraft","Economy","Guard","NSFW","Anime","Invite","Music","Logging", "Web Dashboard", "Reddit", "Youtube", "Twitch", "Crypto", "Leveling", "Game", "Roleplay", "Utility", "Turkish"]
 }
