@@ -142,7 +142,7 @@ const renderTemplate = (res, req, template, data = {}) => {
     renderTemplate(res, req, "index.ejs", {config, roles, botdata, getuser});
   });
   app.get("/dc", (req, res) => {
-    res.redirect('https://discord.gg/z7dBzygse4');
+    res.redirect('https://discord.gg/8vP9FCj3sh');
   });  
 app.get("/error", (req, res) => {
         renderTemplate(res, req, "pages/error.ejs", {req});
