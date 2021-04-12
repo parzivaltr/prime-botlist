@@ -1,3 +1,12 @@
+                   
+                        <% 
+            if(bot.guilds.cache.get(config.serverID).members.cache.get(a.botID)) {
+            if(bot.guilds.cache.get(config.serverID).members.cache.get(a.botID).roles.cache.get("830378039845847100")) {
+             %>   <span data-tooltip="Official Bot" data-tooltip-location="top"> 
+               <img src="https://cdn.discordapp.com/attachments/770940781916586004/830438607373205554/staff.png" style="bottom: -5px; font-size: 30px;width:20px">
+                </span>
+            <% }} %>      
+
 # vCodes.xyz
 **Support:** [https://vcodes.xyz/dc](https://voiddevs.org/dc) <br>
 **NPM:** [npmjs.com/package/vcodes.js](https://www.npmjs.com/package/vcodes.js)<br>
