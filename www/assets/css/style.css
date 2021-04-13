@@ -1030,6 +1030,14 @@ hr {
       color: #d61212;
       transform: scale(1.5) translateY(-4px);
 }
+.twitch {
+    color: #fff;
+    transition: all 0.2s;
+}
+.twitch:hover {
+      color: #9147fe;
+      transform: scale(1.5) translateY(-4px);
+}
 .twitter {
     color: #fff;
     transition: all 0.2s;

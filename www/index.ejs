@@ -165,13 +165,9 @@
                       <div>
                         <img draggable="false" onerror="imgError(this);" alt="<%= a.username %>#<%=a.discrim%>" src="<%= a.avatar %>" class="is-pulled-left cardvcodesbotIMG z">
                       </div>
-                      <% 
-            if(bot.guilds.cache.get(config.serverID).members.cache.get(a.botID)) {
-            if(bot.guilds.cache.get(config.serverID).members.cache.get(a.botID).roles.cache.get("831266790503481457")) {
-             %>  <div class="is-pulled-right is-inline-block">
-                        <span class="tag is-dark mt-1 w-100">Votes: <aas style="font-size:20px;font-family: 'Noto Sans SC', sans-serif;">&nbsp; &#8734; </aas></span>
+      <div class="is-pulled-right is-inline-block">
+                        <span class="tag is-dark mt-1 w-100">Votes: <%= a.votes || "0" %></span>
                      </div>
-            <% }} %>  
                        <br><br><br>
                       <p style="margin-top: 5px;" class="cardvcodesbotName has-text-white mt-3">
                         <%= a.username %>
