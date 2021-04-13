@@ -26,6 +26,9 @@
     </center>
 </div>
 
+<%- include('../parts/foot') %>
+
+
 <script>
     var urlParams = new URLSearchParams(window.location.search);
     if(urlParams.has('success') && urlParams.get('success')){
@@ -54,4 +57,3 @@
 })
     }
    </script>
-<%- include('../parts/foot') %>
