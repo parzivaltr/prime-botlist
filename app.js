@@ -156,9 +156,6 @@ app.get("/error", (req, res) => {
     app.get("/sss", checkMaintence, (req, res) => {
       renderTemplate(res, req, "sss.ejs", {req, roles, config});
     });
-      app.get("/premium", checkMaintence, (req, res) => {
-      renderTemplate(res, req, "premium.ejs", {req, roles, config});
-    });
   app.get("/partners", checkMaintence, (req, res) => {
     renderTemplate(res, req, "partners.ejs", {roles, config});
   });
