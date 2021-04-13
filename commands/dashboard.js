@@ -54,11 +54,11 @@ if(args[1] == "aç") {
     const bakimmesaj = new Discord.MessageEmbed()
     .setAuthor(message.author.tag, message.author.avatarURL({dynamic: true}))
     .setThumbnail(client.user.avatarURL())
-    .setDescription("vCodes **bakım** modu aktif edildi!")
+    .setDescription("RabeL Code **bakım** modu aktif edildi!")
     .addField("Yetkili", message.author)
     .addField("Sebep", reason)
     .setColor("BLUE")
-    client.channels.cache.get(ch.webstatus).send(`vCodes has been switched to __maintance__ due to **${reason}**`).then(a => { 
+    client.channels.cache.get(ch.webstatus).send(`RabeL Code has been switched to __maintance__ due to **${reason}**`).then(a => { 
         new databakim({server: message.guild.id, reason: reason, bakimmsg: a.id}).save();
     })
 }
@@ -72,7 +72,7 @@ if(args[1] == "kapat") {
     .setColor("GREEN")
     .setTitle("BAŞARILI")
     message.channel.send(tebriklerkanks);
-    client.channels.cache.get(ch.webstatus).messages.fetch(d.bakimmsg).then(a => { a.edit(`~~ vCodes **${d.reason}** sebebi ile __bakım__ moduna alındı. ~~`, bakimbitti) } )
+    client.channels.cache.get(ch.webstatus).messages.fetch(d.bakimmsg).then(a => { a.edit(`~~ RabeL Code **${d.reason}** sebebi ile __bakım__ moduna alındı. ~~`, bakimbitti) } )
     const bakimbitti = new Discord.MessageEmbed()
     .setAuthor("www.rabelcode.xyz", client.user.avatarURL())
     .setThumbnail(client.user.avatarURL())
