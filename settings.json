@@ -1,12 +1,12 @@
 {
-  "token": "NzMyNDYzNzUyNTMxODA0MTYy.Xw0-Bw.3-cyyDzWjy11OAv1S-7zELO4N3g",
+  "token": "TOKEN",
   "prefix" : "!",
   "owner" : ["586822327568695317","",""],
-  "clientid" : "732463752531804162",
-  "clientsecret" : "YSTNPh3qzK0pO-qH8n_TTB0zfDxkA-7f",
-  "clientcallback" : "https://dsafrdlkksjjjsuskapd.glitch.me/callback",
-  "mongoURL" : "mongodb+srv://gweep:gweepcreative@botlist.31nys.mongodb.net/gweepvideo123?retryWrites=true&w=majority",
-  "serverID": "826794709019525151",
+  "clientid" : "BOT_İD",
+  "clientsecret" : "SCECRET",
+  "clientcallback" : "",
+  "mongoURL" : "",
+  "serverID": "",
   "footer": "RabeL Code 2021 © All rights reserved.",
   "tags": ["Moderation", "Fun", "Minecraft","Economy","Guard","NSFW","Anime","Invite","Music","Logging", "Web Dashboard", "Reddit", "Youtube", "Twitch", "Crypto", "Leveling", "Game", "Roleplay", "Utility", "Turkish"]
 }
