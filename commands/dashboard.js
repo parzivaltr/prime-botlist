@@ -54,11 +54,11 @@ if(args[1] == "aç") {
     const bakimmesaj = new Discord.MessageEmbed()
     .setAuthor(message.author.tag, message.author.avatarURL({dynamic: true}))
     .setThumbnail(client.user.avatarURL())
-    .setDescription("RabeL Code **bakım** modu aktif edildi!")
+    .setDescription("Prime BotList **bakım** modu aktif edildi!")
     .addField("Yetkili", message.author)
     .addField("Sebep", reason)
     .setColor("BLUE")
-    client.channels.cache.get(ch.webstatus).send(`RabeL Code has been switched to __maintance__ due to **${reason}**`).then(a => { 
+    client.channels.cache.get(ch.webstatus).send(`Prime BotList has been switched to __maintance__ due to **${reason}**`).then(a => { 
         new databakim({server: message.guild.id, reason: reason, bakimmsg: a.id}).save();
     })
 }
@@ -66,19 +66,19 @@ if(args[1] == "kapat") {
     const d = await databakim.findOne({server: message.guild.id});
     if(!d) return message.reply("site zaten bakıma alınmamış.")
     const tebriklerkanks = new Discord.MessageEmbed()
-    .setAuthor("www.rabelcode.xyz", client.user.avatarURL())
+    .setAuthor("Prime BotList", client.user.avatarURL())
     .setThumbnail(client.user.avatarURL())
-    .setDescription(`Tebrikler, **${d.reason}** sebebiyle kapanmış olan RabeL Code'u tekrar açtınız.`)
+    .setDescription(`Tebrikler, **${d.reason}** sebebiyle kapanmış olan Prime BotList'u tekrar açtınız.`)
     .setColor("GREEN")
     .setTitle("BAŞARILI")
     message.channel.send(tebriklerkanks);
-    client.channels.cache.get(ch.webstatus).messages.fetch(d.bakimmsg).then(a => { a.edit(`~~ RabeL Code **${d.reason}** sebebi ile __bakım__ moduna alındı. ~~`, bakimbitti) } )
+    client.channels.cache.get(ch.webstatus).messages.fetch(d.bakimmsg).then(a => { a.edit(`~~ Prime BotList **${d.reason}** sebebi ile __bakım__ moduna alındı. ~~`, bakimbitti) } )
     const bakimbitti = new Discord.MessageEmbed()
-    .setAuthor("www.rabelcode.xyz", client.user.avatarURL())
+    .setAuthor("Prime BotList", client.user.avatarURL())
     .setThumbnail(client.user.avatarURL())
     .setColor("GREEN")
-    .setDescription(`RabeL Code are **active** again!\n[Click to redirect website](https://www.rabelcode.xyz)`)
-    .setFooter("RabeL Code © Tüm hakları saklıdır.");
+    .setDescription(`Prime BotList are **active** again!\n[Click to redirect website](https://primeupbotlist.glitch.me)`)
+    .setFooter("Prime BotList © 2021");
     client.channels.cache.get(ch.webstatus).send(".").then(b => { b.delete({ timeout: 500 })})
     databakim.deleteOne({server: message.guild.id}, function (error, server) { 
     if(error) console.log(error)
