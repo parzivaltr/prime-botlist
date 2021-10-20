@@ -88,7 +88,7 @@ client.on("message", message => {
                                 .setFooter(config.footer)
                                 .setColor("BLUE")
                                 .setAuthor(message.author.username, message.author.avatarURL({dynamic: true}))
-                                .setDescription("Websitemiz için **[buraya](https://www.rabelcode.xyz)** tıkla!"));
+                                .setDescription("Websitemiz için **[buraya](https://primeupbotlist.glitch.me)** tıkla!"));
 	}
   });
 
@@ -118,7 +118,7 @@ map = `No results.`
 }else{
 filter.map(a => {
    
-map += `${a.codeName} **->** [Click Here](https://www.rabelcode.xyz/code/${a.code})\n`
+map += `${a.codeName} **->** [Click Here](https://primeupbotlist.glitch.me/code/${a.code})\n`
 })
 }
 const aramasonucu = new Discord.MessageEmbed()
