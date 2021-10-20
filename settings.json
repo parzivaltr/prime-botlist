@@ -5,7 +5,7 @@
   "clientid" : "900378150872186900",
   "clientsecret" : "HIIPojkQj73apMbAV3NOToTWXGuCnPB4",
   "clientcallback" : "https://primeupbotlist.glitch.me/callback",
-  "mongoURL" : "mongodb+srv://primeupbotlist:<password>@primebotlist.lnntm.mongodb.net/primeupbotlist?retryWrites=true&w=majority",
+  "mongoURL" : "mongodb+srv://primeupbotlist:24272006.@primebotlist.lnntm.mongodb.net/primeupbotlist?retryWrites=true&w=majority",
   "serverID": "894573492438175774",
   "footer": "Prime Botlist+ © 2021",
   "tags": ["Moderation", "Fun", "Minecraft","Economy","Guard","NSFW","Anime","Invite","Music","Logging", "Web Dashboard", "Reddit", "Youtube", "Twitch", "Crypto", "Leveling", "Game", "Roleplay", "Utility", "Turkish"]
