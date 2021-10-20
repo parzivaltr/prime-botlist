@@ -1,12 +1,12 @@
 {
-  "token": "TOKEN",
+  "token": "OTAwMzc4MTUwODcyMTg2OTAw.YXAcfw.3zZh8AeGhyBsGPlNnKeACLuAWGM",
   "prefix" : "!",
-  "owner" : ["586822327568695317","",""],
-  "clientid" : "BOT_İD",
-  "clientsecret" : "SCECRET",
-  "clientcallback" : "",
+  "owner" : ["680446084514185319","",""],
+  "clientid" : "900378150872186900",
+  "clientsecret" : "HIIPojkQj73apMbAV3NOToTWXGuCnPB4",
+  "clientcallback" : "https://primeupbotlist.glitch.me/callback",
   "mongoURL" : "mongodb+srv://primeupbotlist:<password>@primebotlist.lnntm.mongodb.net/primeupbotlist?retryWrites=true&w=majority",
   "serverID": "894573492438175774",
-  "footer": "RabeL Code 2021 © All rights reserved.",
+  "footer": "Prime Botlist+ © 2021",
   "tags": ["Moderation", "Fun", "Minecraft","Economy","Guard","NSFW","Anime","Invite","Music","Logging", "Web Dashboard", "Reddit", "Youtube", "Twitch", "Crypto", "Leveling", "Game", "Roleplay", "Utility", "Turkish"]
 }
