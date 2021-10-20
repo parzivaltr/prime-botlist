@@ -5,8 +5,8 @@
   "clientid" : "BOT_İD",
   "clientsecret" : "SCECRET",
   "clientcallback" : "",
-  "mongoURL" : "",
-  "serverID": "",
+  "mongoURL" : "mongodb+srv://primeupbotlist:<password>@primebotlist.lnntm.mongodb.net/primeupbotlist?retryWrites=true&w=majority",
+  "serverID": "894573492438175774",
   "footer": "RabeL Code 2021 © All rights reserved.",
   "tags": ["Moderation", "Fun", "Minecraft","Economy","Guard","NSFW","Anime","Invite","Music","Logging", "Web Dashboard", "Reddit", "Youtube", "Twitch", "Crypto", "Leveling", "Game", "Roleplay", "Utility", "Turkish"]
 }
